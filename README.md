@@ -1,17 +1,17 @@
 # Smart-Attendance-Marking-System
 We Presented this paper in 8th "International Conference on SoftComputing for Problem Solving"
 
-In the contemporary age of computerization, various novel approaches have been
-occupied the position to save labor and human intervention.In the same way, facial
-recognition(FR) is one of the key areas of development in thefield of computer
-science and it is the greatestwell-organized biometric method for identifying people.
-Using this technique in education ground as automated face recognition attendance
-marking system which is way different from traditional attendance marking system
-as it is time consuming[1].Inspite of the easiest way for using the FR system in mass
-manner set up, the real execution will be difficult as it requires to consider the maximum
-exploration of differences that exists in brightness, face mask structures, differences
-in position, copy determination, device sound, watching remoteness
-etc.Numerous FR attendance systems were done with everyone’s contribution of their
-strengths and weakness[2].The main aim of this research is to overcome those problems.The
-modern development of machine learning and neural networks and its
-applications in face recognition helps the process more accurate and efficient. The 
+Abstract—Nowadays, face identification has become one of the key research regions in
+computer technology.Due to this scientists share a keen interest in this area.In this paper,the
+authors have proposed an application of facial recognition in attendance marking system.Doing
+the task manually is a tedious one for the attendance marking system when there is a huge
+classroomwithmore number of students which is time-consuming. Using this facial recognition
+system avoids the issue of dummy attendance is possible,proxies and save time.In previous
+facial recognition attendance systems, there were some drawbacks such as intensity of
+light,head pose etc.The main research of this paper is to overcome those problems and provide
+the most accurate attendance marking system.Detection of the student and marking the student
+attendance while entering the school room is automatically made with this system.This paper
+defines the prototype of the device and the algorithms used at each level. Algorithms such as
+Viola-Jones for face detection, PCA for feature selection and SVM for classification have been
+used.The proposed method gives an efficient way to control the attendance and records of students
+to that of traditional attendance marking system 
