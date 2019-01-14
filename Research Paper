@@ -1,0 +1,326 @@
+                        SMART ATTENDANCE MARKING SYSTEM USING FACIAL RECOGNITION
+                        
+                        Teja Vemparala1,Dr.Swarnalatha P2*,Anirudh Vattikuti3
+                                  UG Scholars, Associate Professor*,
+                               School of Computer Science and Engineering
+                                Vellore Institute of Technology, Vellore
+                               vemparalateja18@gmail.com,hgswarna@gmail.com*
+ 
+ 
+ Abstract—Nowadays, face identification has become one of the key research regions in
+computer technology.Due to this scientists share a keen interest in this area.In this paper,the
+authors have proposed an application of facial recognition in attendance marking system.Doing
+the task manually is a tedious one for the attendance marking system when there is a huge
+classroomwithmore number of students which is time-consuming. Using this facial recognition
+system avoids the issue of dummy attendance is possible,proxies and save time.In previous
+facial recognition attendance systems, there were some drawbacks such as intensity of
+light,head pose etc.The main research of this paper is to overcome those problems and provide
+the most accurate attendance marking system.Detection of the student and marking the student
+attendance while entering the school room is automatically made with this system.This paper
+defines the prototype of the device and the algorithms used at each level. Algorithms such as
+Viola-Jones for face detection, PCA for feature selection and SVM for classification have been
+used.The proposed method gives an efficient way to control the attendance and records of students
+to that of traditional attendance marking system.
+IndexTerms: Automatic Attendance,Biometrics,Face Recognition,Smart attendance.
+1 INTRODUCTION
+IN the contemporary age of computerization, various novel approaches have been
+occupied the position to save labor and human intervention.In the same way, facial
+recognition(FR) is one of the key areas of development in thefield of computer
+science and it is the greatestwell-organized biometric method for identifying people.
+Using this technique in education ground as automated face recognition attendance
+marking system which is way different from traditional attendance marking system
+as it is time consuming[1].Inspite of the easiest way for using the FR system in mass
+manner set up, the real execution will be difficult as it requires to consider the maximum
+exploration of differences that exists in brightness, face mask structures, differences
+in position, copy determination, device sound, watching remoteness
+etc.Numerous FR attendance systems were done with everyone’s contribution of their
+strengths and weakness[2].The main aim of this research is to overcome those problems.The
+modern development of machine learning and neural networks and its
+applications in face recognition helps the process more accurate and efficient. The
+attendance marking system generally consists of following steps such as Image Acquisition,Database
+development,Pre-processing,Face-detection,Feature extraction and
+classification and at last, the article end with post-processing stage[3].In the very first
+stage of attendance recognition system, detection of the faces of students using a
+voila-jones algorithm and process it through histogram normalization through
+100x100size of a pixel,pre-process it finally store it in the database have been carried
+out.Enormous techniques were made for face detection i.e. AdaBoost algorithm, the
+Float Boost, Neural Networks, Bayes classifier and the Support Vector Machines
+(SVM). The maximum competence of the FR attendance system algorithm was raised
+with the fast face and robust recognition procedure.Here algorithms such as ViolaJones
+for face detection, PCA for feature selection and SVM for classification are
+applied. The further tasks of the paper consists of study work, the in depth implementation
+of the proposed model and finally results,conclusion and possibility for future
+development.
+2 LITERATURE SURVEY
+In this paper[4] the research is mainly focused on the developing of a computerized
+attendance storing system with the outcome having an audio in the tutorial sessions
+or any studyhall so that the staff can calculate the undergraduate's attendance. This
+will be very helpful for the faculties as it saves most of the time as well as the effort
+especially if there are plenty of students in a class. Generally,in a class ,many students
+will be there,so it captures all of the student’s faces and takes the attendance only the
+faces which are identified.This system shows the use of facial recognition technology
+and how it will be helpful for the attendance marking.It can also be useful for the
+exam related issues. But it cannot identify the faces which are similar and have similar
+facial features
+Here[5] the author proposed a model for face detection attendance system. Here the
+system is based on two databases one is student database and another one is the storage
+database.Firstly the process starts with capturing the images of all the students in
+the classand images of all the student's related masks will be calculated by the facial
+features in the images i.e., noselips,eyes mainly. Another database in the system is the
+attendance database. It uses to mark the attendance of the particular student.A camera
+isinstalled at the front of the classroom in order to cover the whole classroom.After
+the camera captures the images noise-removal techniques are applied on them. Gabor
+filters are applied to that images after that so that facial features are considered.
+In this paper[6] they proposed a model for face detection computerized attendance
+system. The proposed prototypeis mainly focused on the face detection and recognition
+algorithms. This system works very efficiently.It can easily recognize the students
+when they enter the classroom.If it matches with the any of the database images 
+3
+he/she will be marked as present for the particular session or else they will be marked
+as absent. This system mainly consists of the feature extraction,preprocessing,imageacquisition,databasedevelopment
+and the classification stages
+and then the post-processingstage.These stages are the main stages in the automated
+attendance marking system.
+Hemanth Kumar Rathod[7] proposed a specific methodology for recording the attendance
+can be done manually either by the teacher or the lecturer.This process is time
+taking and need more effort.It can’t guarantee that there will be no proxies in the
+class and any other errors.So to solve these type of issues a facial recognition with
+biometric feature has been found, that has a lot of phases like image acquisition,face
+detection,feature extraction,face classification etc. The attendance can eventually be
+marked.In this system,using the algorithms like voila jones and the classifiers like
+SVM so as to get the desired results.By using this system, considering the attendance
+of the student without any effort from the teacher or the lecturer.But it needs the elements
+like camera,laptop or the computer and the local network.This methodology is
+very simple to understand,use,most reliable and secure.
+In this paper[8] they proposed a model for attendance management
+system.Thissystem requires various techniques which are already existed and can use
+with some modifications.The first step is to design such a system on the facial recognition.The
+functioning of the algorithms needs to be understood so that the face detection
+dynamics can be understandable.This system can work most efficiently as the
+authors are using the engine's face detection algorithm.It actually divides the image
+into smaller parts.It will be easy to compare the smaller parts rather than covering the
+whole face.By the implementation of the algorithm,the authors were able to track the
+face of the student.It can be done three ways i.e, head tracking,facial feature
+tracking,completetracking.It has high accuracy and can be used multiple times.It will
+be very useful in the online examinations and also for marking the attendance in the
+classrooms automatically.
+In this paper[9] they proposed a model useful for real-time face identification and
+recognition.It mainly requires the camera that will be used to capture the images of
+the students that will be installed in the classrooms to capture the video frames and for
+capturing the multiple faces.Those captured faces will be cropped and will be converted
+to the grayscale so that the number of bits will be reduced that needs to be
+processed.Then the faces will be compared with the images which are already stored
+in the database.If it matches with the any of the database images it will be marked as
+present.It includes several phases like database creation,HOG features, face
+detection,SVM classifier,recognition attendance.When the system finds the image it
+captures the image a lot of times continuously.It records the attendance of each and
+every person and comes out with the best-localized image.With this system, the
+teacher or the lecturer will find it easy to take attendance without any extra effort and
+the cost.It needs the elements of thecamera,laptop,and the network connection.It is
+more secure and reliable and easy to use. 
+4
+3 PROPOSED MODEL
+The main objective of this face detection automated smart attendance system is to
+provide a system that is reliable,practical and eliminates time loss and disturbance in
+traditional attendance systems.The proposed model depends on face identification
+and recognition algorithms.The system architecture of proposed model is shown below.
+
+ Fig-1: System Architecture for Face recognition Attendance System
+In order to execute the proposed prototype,the authors have following algorithm to be
+considered as shown below:
+ ALGORITHM
+ Pseudo Code for the proposed prototype
+1. Click the pupil’s photo.
+2. Implement theViola-Jones algorithm on face recognition.
+3. Extracting the Region of Interest [ROI] in the form of Rectangular Box.
+4. Converting it intograyscale,applying the Histogram Equalization and Resizing
+it to 100x100 pixels
+5. Store the pre-processed Image into Database
+6. Applying the Principle Component Analysis[PCA](For feature Extraction)
+and SVM(for Classification)
+7. Post-Processing
+Now the following stages to implement the proposed algorithm for face Detection and
+recognition are considered. 
+5
+3.1 IMAGE ACQUISITION:
+The camera is put in the studyhall at a separation to capture the images of people
+present in class. The image that is clicked is given as the input to the application.
+ Fig-2 Extracted and captured faces
+3.2 Face Detection:
+The efficiency of such FR systems is augmented by a systematic algorithm. Many
+numerous algorithms are proposed such as Face geometry methods,Feature Invariant
+methods,Machine learning based methods,etc.Among them,use of Viola - jones detection
+algorithm which gives high detection rate and also secure were made.This algorithm
+is more preferred for real-time problems for its efficiency. Viola-Jones calculation
+is connected to this casing, which identifies the faces in the casing. To guarantee
+that the recognized part is confronting, each distinguished protest is edited and further
+prepared for eye discovery and if eyes are identified they are considered as faces else
+are rejected. Highlights of the considerable number of throws are extricated utilizing
+diverse facial highlights, for example, the nose, eyes, the distance between eyes, and
+so on.
+Fig-3 Face detection for training the data 
+6
+3.3 Pre-Processing:
+The facial features detected in the captured image are extricated and subjected to preprocessing.
+In this stage, histogram equalization, which is one of the most popular
+histogram normalization methods is applied on the picture and its resolution will be
+changed to 100x100. This expands the span of potency of the picture thereby making
+it clearer with a better contrast.
+3.4 Development of the Database:
+In this stage, the picture of each pupil is clicked and the biometric attribute is extricated
+from it. Preprocessing is applied on these attributes and then they are stored in
+the database. We have used pictures of a few students captured in dissimilar angles,
+facial expressions and lighting.
+3.5 Feature selection and Extraction:
+Now the feature selection and extraction of the captured image is the important module
+of the total attendance recognition system.For a reliable,compatibleand error-free
+face recognition system this paper need good feature extraction attributed and good
+classification and detection algorithm.The performance of a face recognition mainly
+depends upon good classification algorithm.Now here the article used Viola-jones
+Algorithm for face detection as it is the most accurate face detection algorithm for
+real-timeapplication.High detection rate and low false positive rate are notable features
+of the viola-jones algorithm. Here the manuscript take the implementation of
+HAAR features. Most of the faces of individuals have a few common properties. For
+e.g., the skin around the eyes is slightly darker than that of the upper cheeks and the
+skin on nose bridge is slightly brighter then that around the eyes.Here, using PCA for
+feature extraction and SVM for pattern classification have been made.
+PRINCIPAL COMPONENT ANALYSIS
+It is commonly known as the method of selection of the features as well as the reduction
+of the dimensions.It will be used for the extraction of principal components of
+multidimensional data.It was the first algorithm which is used for the representation
+of the faces economically. In PCA the faces will be captured by the camera and by
+using the eigenfaces the captured faces will be shown along with the corresponding 
+7
+projections of the image.Only the meaningful dimensions will be considered instead
+of all the dimensions of the image.The image will be represented mathematically
+using PCA as
+
+ χ = WY + µ
+Here the face vector is χ,theeigenface vectors areY, the featurevector is W and the
+average face vector is µ.In the recognition of the faces, these will be used as the features
+for classification.Eigenfaces have introduced early for the use of the analysis of
+the principal components to solve the problems of the recognition of the faces.
+SUPPORT VECTOR CLASSIFIER
+Support Vector Machine (SVM) Classifier is a binary classifier. Here the hyper plane
+will be used like decision function.Regarding the presence of an object such as the
+human after the training of the images containing the particular object, the decisions
+will be taken by the SVM classifier. Here the PCA will be used for the extraction of
+the features and SVM will be used for the classification.SVM has been proposed recently
+that it is the best and the most effective classifier for the recognition of the
+patterns. For the recognition of the patterns, SVM finds the closest points which are
+there in the training set that can be done linearly or non-linearly.The recognition of
+face has two stages.They are classification and the extraction of the features.The previously
+mentioned feature extractors joined with classifiers are thought about in different
+true situations, for example, lighting conditions, Unintentional facial element
+changes, Expressions.
+System Performance is additionally assessed with respect to acceptance rate,distance,
+false positive rate,time which is required for the planning. Detachment additionally
+plays as a basis in this structure show as the picture diagrams are caught when an
+individual goes into the room and face region is resized. So the face region got at
+around 4 feet and 7feet gives better results. For the Training, data of 150 pictures
+preparing time is determined.
+3.6 Face Recognition:
+After face detection and pre-processing of the captured image,depending upon the
+features of face ,feature comparison will happen. So, whenever it detects the face it
+matches the faces captured in the database if it matches, the attendance is marked.As
+per the experiment, most of the faces are recognized correctly. Fig 4 shows the recognized
+face along with the registered number.
+8
+
+ Fig-4 Face Recognition with Registered number
+3.7 Post Processing:
+In our proposed system, the details of pupils are updated in the database after their
+faces are detected. The database system uses exporting mechanism and creates a sheet
+bearing all those details.
+GRAPHICAL USER INTERFACE[GUI]
+The GUI is used for face detection and recognition as shown below figures.The first
+part of the GUI is where the authors register the student name and Registration number
+along with the face for training the detected faces.
+
+
+ Fig-5 GUI for registration number and Name of Students 
+9
+Now after capturing all the faces as shown in fig 3 the faces should be trained with the
+algorithm and extracted features for more accuracy of face detection.For training of
+these faces present in the database as shown in the figure-6 below
+Fig-6 Captured images in thedatabase after pre-processing
+The authors developed a GUI which traces the images in the database before face
+recognition after adding to each new face in the database for increasing the accuracy
+of detection as shown in below figure-7.
+
+
+Fig-7 Training the dataset
+4 RESULTS
+The face detection and recognition system are simple yet efficient than other attendance
+systems. Here, development of a GUI as shown above to manage the total system.
+After face registration with the name and Reg no, extraction of the detected image
+and pre-processing with Histogram equations for storing in the database have
+been made.Now the feature extraction and classification of these images can be done 
+10
+by PCA and SVM as shown above then this paper deals with training of the dataset
+for accurate results.Finally after detection of theface as shown in fig-8 the attendance
+is marked and stored in anExcel sheet as shown in the fig-9 below.
+Fig-8 Showing the student is recognized along with the registration number.
+Fig-9 Excel Sheet showing the attendance w.r.t time and date 
+11
+5 PERFORMANCE EVALUATION
+
+ Fig -10 Performance Analysis of PCA + SVM with other algorithms
+6 CONCLUSION AND FUTURE WORK
+The smart face recognition system is proven as most efficient attendance system
+among all other attendance systems due to its consistency,robust and accuracy but
+also it can have its own limitations.In this system,algorithms such as Principal
+Component Analysis for feature extraction and SVM as classifiers which outperforms 
+12
+other algorithms in real-time applications have been applied and proved as best for
+this attendance systems.The overall system is implemented in python.
+The future work is to improve the recognition rate with other algorithms as human
+changes as time such as growing beard, glasses,scarf etc. This system is too developed
+to recognize 3-4 people at a time and in future the authors canimprove its recognition
+rate and achieve greater performance and efficiency.
+7 ACKNOWLEDGMENT
+With all respect and gratitude, the authors would like to thank Prof.Swarnalatha P for
+guiding us throughout the project and also to all the people who helped directly and
+indirectly for completion of our project successfully.
+8 REFERENCES
+[1] M. Turk and A. Pentland, Eigenfaces for recognition, Journal of Cognitive Neuroscience,
+3(1), pp. 7186, 1991USA: Abbrev. of Publisher, year, ch.x, sec. x, pp.
+xxx–xxx.
+[2] B. K. Mohamed and C. Raghu - "Fingerprint attendance system for classroom
+needs", in India Conference (INDICON), 2012 Annual IEEE. IEEE, 2012,
+pp.433438.
+[3] S. Kadry and K. Smaili - "A design and implementation of a wireless iris recognition
+attendance management system", Information Technology and control, vol.
+36, no.3, pp. 323329, 2007.
+[4] Poornima, S., Sripriya, N., Vijayalakshmi, B., &Vishnupriya, P. (2017). Attendance
+monitoring system using facial recognition with audio output and gender
+classification. International Conference on Computer, Communication, and Signal
+Processing: Special Focus on IoT, ICCCSP 2017, 0–4.
+https://doi.org/10.1109/ICCCSP.2017.7944103
+[5] Sajid, M., Hussain, R., & Usman, M. (2014). A conceptual model for automated
+attendance marking system using facial recognition. 2014 9th International Conference
+on Digital Information Management, ICDIM 2014, 7–10.
+https://doi.org/10.1109/ICDIM.2014.6991407
+[6] Chintalapati, S., & Raghunadh, M. V. (2013). Automated Attendance Management
+System Based On Face Recognition Algorithms. 2013 IEEE International
+Conference on Computational Intelligence and Computing Research, 1–5.
+https://doi.org/10.1109/ICCIC.2013.6724266 
+13
+[7] Rathod, H., Ware, Y., Sane, S., Raulo, S., & Pakhare, V. (2017). Automated Attendance
+System using Machine Learning Approach, 0–4.
+[8] Malik, R., Kumar, P., Verma, A., &Rawat, S. (2017). Prototype model for an
+intelligent attendance system based on thefacial identification. 2016 International
+Conference on Information Technology, InCITe 2016 - The Next Generation IT
+Summit on the Theme - Internet of Things: Connect Your Worlds, 40–43.
+https://doi.org/10.1109/INCITE.2016.7857586
+[9] Balcoh, Naveed Khan, et al. "Algorithm for efficient attendance management:
+Face recognition based approach." JCSI International Journal of Computer
+Science Issues 9.4 (2012).
+[10] AksharaJadhav, AkshayJadhavTusharLadhe, Krishna Yeolekar.(2017)AUTOMATED
+ATTENDANCE SYSTEM USING FACE
+RECOGNITION.
+[11] Priyanka Wagh,JagrutiChaudhari,RoshaniThakare,Shweta Patil.Attendance System
+based on Face Recognition using Eigenface and peA Algorithms.
+[12] Shehu, Visar, and Agni Dika. "Using real-time computer vision algorithms in
+automatic attendance management systems." Information Technology Interfaces
+(ITI), 2010 32nd International Conference on. IEEE, 2010. 
